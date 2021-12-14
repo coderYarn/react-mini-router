@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 ### `yarn dev`
 
-开启一个由esbuild打包得服务,很快,但是我不会写文件映射。。
+开启一个由esbuild打包得服务,很快,但是我不会写文件映射。。\
 Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 
