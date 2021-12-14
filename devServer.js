@@ -22,6 +22,7 @@ del.sync("./public-dev/dist");
       outdir: "./public-dev/dist", // 输出目录
       chunkNames: "chunks/[name].[hash]", // 打包出来的文件名
       incremental: dev, // 因为我们监听文件的改变重新打包，而且我们要开发环境使用esbuild 所以 dev 为 true
+      sourcemap: true,
       loader: {
         // 此选项更改给定输入文件的解释方式。
         ".svg": "text",
